@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "node constants/bot.js",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -10,7 +11,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.13.1",
     "nuxt": "^3.15.4",
+    "telegraf": "^4.16.3",
     "vue": "latest",
     "vue-router": "latest"
   }
