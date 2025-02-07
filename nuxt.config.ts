@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 
 	nitro: {
 		output: {
-			dir: './dist/telegram-mini-app',
+			dir: './dist/telegram-mini-app/public/',
 		},
 	},
 })
