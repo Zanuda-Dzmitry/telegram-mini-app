@@ -1,18 +1,16 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
 
   app: {
-		// head: {
-		// 	link: [
-		// 		{
-		// 			href: 'https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap',
-		// 			rel: 'stylesheet',
-		// 		},
-		// 		{ rel: 'icon', type: 'image/x-icon', href: '/CinemaGuide/favicon.png' },
-		// 	],
-		// },
+		head: {
+			link: [
+				{
+					href: 'https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap',
+					rel: 'stylesheet',
+				},
+				{ rel: 'icon', type: 'image/x-icon', href: '/CinemaGuide/favicon.png' },
+			],
+		},
 		baseURL: '/telegram-mini-app/',
 	},
 
@@ -21,4 +19,5 @@ export default defineNuxtConfig({
 			dir: './dist/telegram-mini-app/',
 		},
 	},
+  compatibilityDate: '2024-11-01',
 })
